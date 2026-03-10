@@ -1,10 +1,10 @@
 {
-  "name": "hn-mcp",
+  "name": "hackernews-mcp",
   "version": "1.0.0",
   "type": "module",
   "main": "./build/index.js",
   "bin": {
-    "hn-mcp": "./build/index.js"
+    "hackernews-mcp": "./build/index.js"
   },
   "files": [
     "build",

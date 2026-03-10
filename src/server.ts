@@ -14,7 +14,7 @@ export async function createServer() {
   const client = new HNClient(config);
 
   const server = new Server(
-    { name: 'hn-mcp', version: '1.0.0', description: `Hacker News MCP server. Read-only access to stories, comments, users, and search.${config.HN_USERNAME ? ` Configured user: ${config.HN_USERNAME}. When the user says "my profile" or "my submissions", use this username.` : ''}` },
+    { name: 'hackernews-mcp', version: '1.0.0', description: `Hacker News MCP server. Read-only access to stories, comments, users, and search.${config.HN_USERNAME ? ` Configured user: ${config.HN_USERNAME}. When the user says "my profile" or "my submissions", use this username.` : ''}` },
     { capabilities: { tools: {} } }
   );
 

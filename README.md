@@ -44,7 +44,7 @@ Add to your `claude_desktop_config.json`:
   "mcpServers": {
     "hackernews": {
       "command": "node",
-      "args": ["/path/to/hn-mcp/build/index.js"]
+      "args": ["/path/to/hackernews-mcp/build/index.js"]
     }
   }
 }
@@ -53,7 +53,7 @@ Add to your `claude_desktop_config.json`:
 ## Usage with Claude Code
 
 ```bash
-claude mcp add hackernews -- node /path/to/hn-mcp/build/index.js
+claude mcp add hackernews -- node /path/to/hackernews-mcp/build/index.js
 ```
 
 ## Available Tools
