@@ -3,15 +3,22 @@
   "version": "1.0.0",
   "type": "module",
   "main": "./build/index.js",
-  "bin": { "hn-mcp": "./build/index.js" },
-  "files": ["build", "README.md"],
+  "bin": {
+    "hn-mcp": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsc && chmod +x build/index.js",
     "dev": "tsc --watch",
     "start": "node build/index.js",
     "prepublishOnly": "npm run build"
   },
-  "engines": { "node": ">=18.0.0" },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "1.26.0",
     "dotenv": "^16.6.0",
@@ -20,5 +27,6 @@
   "devDependencies": {
     "@types/node": "^24.0.4",
     "typescript": "^5.8.3"
-  }
+  },
+  "license": "MIT"
 }
